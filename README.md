@@ -9,7 +9,7 @@ Here, we release our code utilized in the following paper:
 - [Octuplet Loss - Make Face Recognition Robust Against Image Resolution
 ](TBD)
 
-![Loss Visualization](https://github.com/martlgap/octuplet-loss/blob/[branch]/loss_vis.jpg?raw=true)
+![Loss Visualization](https://github.com/martlgap/octuplet-loss/blob/main/loss_vis.jpg?raw=true)
 
 
 ## 💻 Code
