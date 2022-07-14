@@ -1,6 +1,5 @@
 # Octuplet Loss - Make Face Recognition Robust Against Image Resolution
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Downloads](https://img.shields.io/github/downloads/martlgap/octuplet-loss/total)](https://img.shields.io/github/downloads/martlgap/octuplet-loss/total)
 [![License](https://img.shields.io/badge/license-MIT-blue)](https://img.shields.io/badge/license-MIT-blue)
 [![Last Commit](https://img.shields.io/github/last-commit/martlgap/octuplet-loss)](https://img.shields.io/github/last-commit/martlgap/octuplet-loss)
 
