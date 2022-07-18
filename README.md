@@ -10,6 +10,12 @@ Here, we release our code utilized in the following paper:
 
 ![Loss Visualization](https://github.com/martlgap/octuplet-loss/blob/main/loss_vis.jpg?raw=true)
 
+## 🏆 Performance (Accuracy [%])
+| Model | [LFW](http://vis-www.cs.umass.edu/lfw/) | [XQLFW](https://martlgap.github.io/xqlfw/) |
+|---|---|---|
+| [ArcFace](https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf) | 99.55 | 93.27 |
+| [MagFace](https://openaccess.thecvf.com/content/CVPR2021/papers/Meng_MagFace_A_Universal_Representation_for_Face_Recognition_and_Quality_Assessment_CVPR_2021_paper.pdf) | 99.63 | 92.92 |
+| [FaceTransformer](https://arxiv.org/abs/2103.14803) | 99.73 | 95.12 |
 
 ## 💻 Code
 We provide the code of our proposed octuplet loss for [tf_octuplet_loss.py (Tensorflow 2)](https://github.com/martlgap/octuplet-loss/tf_octuplet_loss.py) 
