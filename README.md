@@ -23,7 +23,15 @@ and [pt_octuplet_loss.py (PyTorch)](https://github.com/martlgap/octuplet-loss/pt
 ## 📖 Cite
 If you use our code please consider citing:
 ~~~tex
-    TBD
+@misc{https://doi.org/10.48550/arxiv.2207.06726,
+  doi = {10.48550/ARXIV.2207.06726},
+  url = {https://arxiv.org/abs/2207.06726},
+  author = {Knoche, Martin and Elkadeem, Mohamed and Hörmann, Stefan and Rigoll, Gerhard},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Octuplet Loss: Make Face Recognition Robust to Image Resolution},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
 }
 ~~~
 
