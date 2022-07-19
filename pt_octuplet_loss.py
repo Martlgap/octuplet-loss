@@ -10,8 +10,9 @@ def pairwise_distances(embeddings: torch.float32, metric: str = "euclidean") -> 
     """
 
     if metric=="cosine":
-        distances_normalized = torch.norm(embeddings, p=2, dim=1)
-        dists = torch.matmul(distances_normalized, distances_normalized.T)
+        norms = torch.norm(embeddings, p=2, dim=1, keepdim=True)
+        embeddings_normalized = embeddings.div(norms.expand_as(embeddings))
+        dists = torch.matmul(embeddings_normalized, embeddings_normalized.T)
         return 1.-dists
 
     # With help of: ||a - b||^2 = ||a||^2  - 2 <a, b> + ||b||^2
