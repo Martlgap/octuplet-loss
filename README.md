@@ -11,6 +11,7 @@ Here, we release our code utilized in the following paper:
 ![Loss Visualization](https://github.com/martlgap/octuplet-loss/blob/main/loss_vis.jpg?raw=true)
 
 ## 🏆 Performance (Accuracy [%])
+All models are finetuned with Octuplet-Loss:
 | Model | [LFW](http://vis-www.cs.umass.edu/lfw/) | [XQLFW](https://martlgap.github.io/xqlfw/) |
 |---|---|---|
 | [ArcFace](https://openaccess.thecvf.com/content_CVPR_2019/papers/Deng_ArcFace_Additive_Angular_Margin_Loss_for_Deep_Face_Recognition_CVPR_2019_paper.pdf) | 99.55 | 93.27 |
