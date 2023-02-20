@@ -19,8 +19,9 @@ All models are finetuned with Octuplet-Loss:
 | [FaceTransformer](https://arxiv.org/abs/2103.14803) | 99.73 | 95.12 |
 
 ## 💻 Code
-We provide the code of our proposed octuplet loss for [tf_octuplet_loss.py (Tensorflow 2)](https://github.com/martlgap/octuplet-loss/blob/main/tf_octuplet_loss.py) 
-and [pt_octuplet_loss.py (PyTorch)](https://github.com/martlgap/octuplet-loss/blob/main/pt_octuplet_loss.py). 
+We provide the code of our proposed octuplet loss: 
+- [tf_octuplet_loss.py (Tensorflow 2)](https://github.com/martlgap/octuplet-loss/blob/main/tf_octuplet_loss.py) 
+- [pt_octuplet_loss.py (PyTorch)](https://github.com/martlgap/octuplet-loss/blob/main/pt_octuplet_loss.py). 
 
 
 ## 🥣 Requirements
