@@ -4,7 +4,7 @@
 [![Last Commit](https://img.shields.io/github/last-commit/martlgap/octuplet-loss)](https://img.shields.io/github/last-commit/martlgap/octuplet-loss)
 
 
-Here, we release our code utilized in the following paper:
+Here, we release our code and model utilized in the following paper:
 - [Octuplet Loss - Make Face Recognition Robust Against Image Resolution
 ](https://arxiv.org/abs/2207.06726)
 
@@ -23,6 +23,9 @@ We provide the code of our proposed octuplet loss:
 - [tf_octuplet_loss.py (Tensorflow 2)](https://github.com/martlgap/octuplet-loss/blob/main/tf_octuplet_loss.py) 
 - [pt_octuplet_loss.py (PyTorch)](https://github.com/martlgap/octuplet-loss/blob/main/pt_octuplet_loss.py). 
 
+## 🧠 Model
+We provide the model via huggingface
+[https://huggingface.co/Martlgap/FaceTransformerOctupletLoss](https://huggingface.co/Martlgap/FaceTransformerOctupletLoss)
 
 ## 🥣 Requirements
 [![Python 3.8](https://img.shields.io/badge/Python-3.8-blue)](https://img.shields.io/badge/Python-3.8-blue)
